@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GradientAnimation"
+             xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
+             x:Class="GradientAnimation.MainPage">
+    <xfg:ContentPageGloss.BackgroundGradient>
+        <local:AnimatedGradient/>
+    </xfg:ContentPageGloss.BackgroundGradient>
+    <Label Margin="30" 
+           Text="🌈&#10;I'm a gradient animation" 
+           TextColor="White" 
+           FontAttributes="Bold"
+           FontSize="30" 
+           HorizontalOptions="FillAndExpand" 
+           VerticalOptions="Center" 
+           HorizontalTextAlignment="Center"/>
+</ContentPage>
